@@ -1,0 +1,64 @@
+<h2>Philosophy</h2>
+<p> We believe in offering competitive and transparent rates without compromising quality. You can complete piece work through a budget legal service that matches you with a lawyer of your choice. 
+But they may not provide the legal advice you need. They will file a trademark for you, but they may not advise you about potential trademark conflicts. 
+They will organize a company for you, but they may fail to include important corporate policy advice regarding intellectual property, employment discrimination, 
+independent contractor definitions and other pitfalls that can lead to legal trouble down the line. We combine competitive, transparent fees with the premium service
+ you need to succeed and don't cut legal corners just because you may be unaware of the corner.</p>
+ 
+ 
+ 
+ <div class="row">
+<div class="6u 12u$(small)">
+<H2>INCORPORATION</h2>
+											<ul>
+												<li>LLC Startup Package &ndash; $1500</li>
+												<li>Corporation Startup Package &ndash; $2500</li>
+												<li>Social Purpose Startup Package &ndash; $2500</li>
+												<li>Nonprofit Startup Package &ndash; $2500 (Electronic Filing Eligible) </li>
+											</ul>
+<h2>FUNDING</h2>
+<ul>
+												<li>SAFE Agreement &ndash; $1,000 + $200/investor</li>
+												<li>Convertible Debt &ndash; $2500 + $300/investor</li>
+												<li>Equity Seed Round &ndash; $3500 + $300/investor</li>
+												<li>Equity Series A &ndash; $4500 + $500/investor</li>
+												<li>Intrastate Equity Crowdfunding &ndash; Contact us for a Quote</li>
+											</ul>
+<h2>EQUITY ISSUANCE</h2>
+<ul>
+<li>Equity Grant &ndash; $650</li> 
+<li>Stock Option Grant &ndash; $650</li>
+<li>Employee Stock Option Plan &ndash; $2000</li>
+</ul>
+
+											</ul>
+											</div>
+											<div class="6u$ 12u$(small)">
+<h2>CONTRACTS</h2>
+<ul>
+												<li>Founders Agreement &ndash; $200 + $100/founder</li>
+												<li>Non-disclosure Agreement &ndash; $350</li>
+												<li>Contract Review &ndash; $500</li>
+												<li>Consulting Agreement &ndash; $750</li>
+												<li>Master Service Agreement &ndash; $1000</li>
+												<li>Licensing Agreement &ndash; $1200</li>
+												<li>Terms of Service &amp; Privacy Policy &ndash; $1500</li></ul> 
+												
+<h2>INTELLECTUAL PROPERTY</h2>
+<ul>
+												<li>Copyright Policy&ndash; $350</li>
+												<li>Trademark Registration &ndash; $750</li>
+											</ul>
+
+<h2>EMPLOYMENT</h2>
+<ul> 
+												<li>Independent Contractor Agreement &ndash; $750</li>
+												<li>Employment Agreement &ndash; $1,000</li>
+												</ul>
+
+</div>
+</div>
+
+<h2>The Fine Print</h2>
+<p>The above pricing does not include government filing fees nor other 3<sup>rd</sup> party costs. If your legal needs are more complex and don&rsquo;t fit within our standard rates, we will draft a custom solution for your situation, with a clear price from the start. </p>
+</section>
