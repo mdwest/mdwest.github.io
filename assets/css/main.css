@@ -400,6 +400,10 @@ section{
 }
 
 
+.owl-theme .owl-dots .owl-dot span {
+	background: #d3d3d326;
+}
+
 /**********************
 		Team
 **********************/
