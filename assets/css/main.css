@@ -383,9 +383,17 @@ section{
 .slider_1{
 	position: relative;
 }
-.slider_1 .owl-controls .owl-dots{
-	bottom: 40px;
-    position: relative;
+.owl-dot {
+	background: inherit;
+	border: none;
+}
+.owl-dots {
+	padding: 50px 0 50px 0;
+}
+
+
+.owl-nav {
+	display: none;
 }
 .mb0{
 	margin-bottom: -70px;
