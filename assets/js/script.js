@@ -1,5 +1,18 @@
 $( document ).ready(function() {
     $('body').scrollspy({ target: '#main-navbar' })
+
+    const configuration = {
+      useEasing: true,
+      duration: 4
+    }
+
+    const employees = new CountUp('employees-count', 2990000, configuration);
+    const benefits = new CountUp('benefits-count', 2989530000, configuration);
+    const claims = new CountUp('claims-count', 111604, configuration);
+
+    employees.start();
+    benefits.start();
+    claims.start();
     
     $('#slider_1').owlCarousel({
         loop:true,
