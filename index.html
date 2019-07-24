@@ -34,7 +34,7 @@
 		
     </head>
     <body data-spy="scroll" data-target="#main-navbar">
-
+        
         <!-- NavigationBar Section -->
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
@@ -474,9 +474,9 @@
                             <div class="col-sm-4 col-sm-offset-4">
                                 <button id="cnfsubmit" type="submit" class="btn btn-default btn-block btn-cn">Send Message</button>
                             </div>
-                        </form>
+                            </form>
 
-                            <div id="contactFormResponse"></div>
+                        <div id="contactFormResponse"></div>
                         </div>
                     </div>
                 </div>
@@ -516,6 +516,19 @@
                 </div>
             </footer>
         
+        <!-- Pop-up -->
+            <div class="popup-window" style="opacity: 0">
+                <div class="popup-content">
+                    <img class="popup-close" src = "assets/images/close-icon.png">
+                    <div class="popup-mobile">
+                        <img class="popup-image" src="assets/images/Portrait_Placeholder.png">
+                        <p class="popup-text">Mitch is avaiable to talk now! Click for your free consult!</p>
+                    </div>
+                    <button class = "popup-call-button" >Call Me</button>
+                </div>
+            </div>
+
+
         <!-- Scripts -->
         <script src="./assets/js/jquery-1.12.3.min.js"></script>
         <script src="./assets/js/bootstrap.min.js"></script>
@@ -523,5 +536,6 @@
         <script src="./assets/js/owl.carousel.min.js"></script>
         <script src="./assets/js/countUp.min.js"></script>
         <script src="./assets/js/script.js"></script>
+        <script src = "assets/js/popup.js"></script>
     </body>
 </html>
