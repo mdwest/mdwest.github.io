@@ -8,6 +8,7 @@ class ShowPopup {
         this.popUpWindow = document.querySelector('.popup-window');
         this.popUpClose = document.querySelector('.popup-close');
         this.offsetTimeZoneMinutes = -180;
+        this.pageReload = true; 
     }
     
     convertUserData() {
@@ -134,10 +135,17 @@ class ShowPopup {
     runPopUp() {
         this.setListeners();
         setInterval(()=>{
-            if (this.checkCurrentDate()){
+            if (this.getCurrentMinute == 59 ) {
+                setTimeout(() => {
+                    this.pageReload = true;
+                },60000);
+            }
+
+            if (this.checkCurrentDate() && this.pageReload ){
+                this.pageReload = false;
                 this.openPopUp();
             }
-        }, 31000);
+        }, 1000);
     } 
 }
 
@@ -196,6 +204,7 @@ let CyclicalModal = new ShowPopup([
 
 CyclicalModal.runPopUp();
 
+ 
 
 
 
