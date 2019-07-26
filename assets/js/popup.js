@@ -1,6 +1,6 @@
 class ShowPopup {
-    constructor(userData) {
-        this.lifeTime = null;
+    constructor(userData,lifeTime = null) {
+        this.lifeTime = lifeTime;
         this.convertedUserData = this.convertUserData(userData);
         this.popUpWindow = document.querySelector('.popup-window');
         this.popUpClose = document.querySelector('.popup-close');
@@ -185,7 +185,7 @@ let CyclicalModal = new ShowPopup([
             '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12pm'
          ]
      }
-]);
+],null);
 
 CyclicalModal.runPopUp();
 
