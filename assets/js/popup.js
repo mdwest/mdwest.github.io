@@ -4,6 +4,7 @@ class ShowPopup {
         this.convertedUserData = this.convertUserData(userData);
         this.popUpWindow = document.querySelector('.popup-window');
         this.popUpClose = document.querySelector('.popup-close');
+        this.offsetTimeZoneMinutes = -180;
     }
     
     convertUserData() {
@@ -64,8 +65,11 @@ class ShowPopup {
     }
 
     getCurrentDate() {
-        let now = new Date();
-        return now;
+        let dateCurrentTimeZone = new Date();
+        let dateOffsetMs = dateCurrentTimeZone.getTimezoneOffset()*60*1000;
+        let dateOfGivenTimeZone = new Date(Date.now() + dateOffsetMs + this.offsetTimeZoneMinutes*60*1000 );
+        return dateOfGivenTimeZone;
+
     }
 
     checkCurrentDate(){
@@ -93,7 +97,6 @@ class ShowPopup {
                 fullCoincidience = true;
             }
         });
-        console.log(fullCoincidience);
         return fullCoincidience;
     }
 
