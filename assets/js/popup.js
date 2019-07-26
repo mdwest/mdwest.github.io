@@ -1,6 +1,9 @@
 class ShowPopup {
     constructor(userData,lifeTime = null) {
+        // life time of popup, please, change null for adding custom life time.
+        // null means that popup will leave up to close click
         this.lifeTime = lifeTime;
+        
         this.convertedUserData = this.convertUserData(userData);
         this.popUpWindow = document.querySelector('.popup-window');
         this.popUpClose = document.querySelector('.popup-close');
@@ -134,10 +137,11 @@ class ShowPopup {
             if (this.checkCurrentDate()){
                 this.openPopUp();
             }
-        }, 1000);
+        }, 31000);
     } 
 }
 
+// Here you can set day and specific hours also you can set set of days and apply hours
 let CyclicalModal = new ShowPopup([
     {
        days: ['Monday'],
