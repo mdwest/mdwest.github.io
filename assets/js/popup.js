@@ -189,14 +189,14 @@ let CyclicalModal = new ShowPopup([
      {
         days: ['Saturday'],
         hours: [
-            '12am',
+            '12pm',
             '1pm', 
          ]
      },
      {
         days: ['Sunday'],
         hours: [
-            '12am',
+            '12pm',
             '1pm', 
          ]
      }
