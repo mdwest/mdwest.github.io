@@ -154,50 +154,50 @@ let CyclicalModal = new ShowPopup([
     {
        days: ['Monday'],
        hours: [
-           '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am', '12am',
-           '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12pm'
+           '8am', '9am', '10am', '11am', '12am',
+            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm',
         ]
     },
     {
         days: ['Tuesday'],
         hours: [
-            '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am', '12am',
-            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12pm'
+            '8am', '9am', '10am', '11am', '12am',
+            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm',
          ]
      },
      {
         days: ['Wednesday'],
         hours: [
-            '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am', '12am',
-            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12pm'
+            '8am', '9am', '10am', '11am', '12am',
+            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm',
          ]
      },
      {
         days: ['Thursday'],
         hours: [
-            '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am', '12am',
-            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12pm'
+            '8am', '9am', '10am', '11am', '12am',
+            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm',
          ]
      },
      {
         days: ['Friday'],
         hours: [
-            '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am', '12am',
-            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12pm'
+            '8am', '9am', '10am', '11am', '12am',
+            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm',
          ]
      },
      {
         days: ['Saturday'],
         hours: [
-            '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am', '12am',
-            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12pm'
+            '12am',
+            '1pm', 
          ]
      },
      {
         days: ['Sunday'],
         hours: [
-            '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am', '12am',
-            '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm', '12pm'
+            '12am',
+            '1pm', 
          ]
      }
 ],null);
