@@ -122,11 +122,11 @@ section{
 	height: 100vh;
 }
 .intro h1{
-	position: relative;
+	position: relative; 
 	color: #fff;
 	font-size: 90px;
 	text-transform: uppercase;
-	line-height: 1;
+	line-height: 1; 
 }
 .intro h1:after, .intro h1:before{
 	content: '';
@@ -155,7 +155,12 @@ section{
 	.btn-header{
 		bottom: 30px;
 	}
+	.intro h1 {
+		font-size: 36px;
+	}
+
 }
+ 
 
 /**********************
 		Thanks
@@ -165,7 +170,7 @@ section{
 	height: 100vh;
 	position: relative;
 }
-.intro-box{
+/* .intro-box{
 	height: 100vh;
 }
 .intro h1{
@@ -202,7 +207,7 @@ section{
 	.btn-header{
 		bottom: 30px;
 	}
-}
+} */
 
 
 
@@ -623,5 +628,110 @@ section{
 @media (max-width: 767px){
 	footer, .subscribe{
 		text-align: center;
+	}
+}
+
+
+
+/*PopUp*/
+.popup-window { 
+	display: none;
+	opacity: 0;
+	z-index: 9999;
+    width:280px;	
+	height:200px;	
+ 	background-color: white;
+    position:fixed;
+	bottom:20px;
+	right: 20px;
+	border-radius: 23px;
+	transition: opacity 0.8s linear;
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14),
+				0 6px 30px 5px rgba(0,0,0,0.12),
+				0 8px 10px -7px rgba(0,0,0,0.2);
+}
+
+.popup-content {
+	width: 96%;
+	margin: auto;
+	margin-top: 2%;
+}
+
+.popup-close {
+	display: block;
+	margin-left: auto;
+	margin-right: 5px;
+	margin-top: 11px;
+	padding-bottom: 2px;
+	width: 8%;
+	min-width: 30px;
+ 	cursor: pointer;
+}
+ 
+
+.popup-mobile {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 5px
+}
+ 
+.popup-image{
+	align-self: center;
+	display: inline-flex;
+	height:  67px;
+	border-radius: 50%;
+}
+
+.popup-text {
+ 	max-width: 150px;
+	align-self: center;
+    color: rgb(49, 67, 107);
+    font-size: 15px;
+    display: inline-flex;
+    margin: 0;
+ 
+ }
+
+.popup-call-button {
+	clear: both;
+	display: block;
+	margin: 25px auto;
+	width: 52%;
+	color: white;
+	min-width: 70px;
+	height: 38px;
+	background-color: rgb(49, 67, 107);
+	border-radius: 14px;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	padding-top: 9px;
+}
+.popup-call-button:visited, .popup-call-button:hover, .popup-call-button:active, .popup-call-button:focus {
+	text-decoration:  none;
+	color:white;
+} 
+
+@media (max-width: 540px){
+	.popup-window {
+		height: 230px;
+		width: 84vw;
+		margin: auto;
+		bottom: 8vw;
+		right: 8vw;
+	}
+	.popup-close {
+		padding-bottom: 10px;
+	}
+	.popup-text {
+		max-width: 210px;
+		font-size: 16px;
+	} 
+	.popup-call-button {
+		width: 50%;
+		height: 45px;
+		font-size: 18px;
+		margin-top: 35px;
 	}
 }
