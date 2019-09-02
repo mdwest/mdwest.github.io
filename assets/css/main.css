@@ -332,6 +332,11 @@ section{
 /**********************
 		Consultation
 **********************/
+.target{
+	vertical-align: center;
+	text-align: center;
+	background-color: #F2EEED;;
+}
 .consultation{
 	background-color: #F2EEED;
 }
